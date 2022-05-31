@@ -10,7 +10,9 @@ app.use(function(req, res, next) {
 });
 
 app.get("/", (req, res)=>{
-    res.send("Working")
+    res.json({
+        "status":"Live"
+    })
 })
 
 app.get('/.well-known/stellar.toml', (req, res, next) => {
