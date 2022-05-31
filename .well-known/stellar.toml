@@ -1,0 +1,23 @@
+NETWORK_PASSPHRASE = "Test SDF Network ; September 2022"
+HORIZON_URL="https://horizon-testnet.stellar.org"
+ACCOUNTS = [ "GD3V4AJMAKA3D2TPSFQZQX2LM43WYNKFCEUQITWMYO3PL4V4CBLTGZFG", "GBVJMEXN4LT2MHVAVPNI4OKDXEY7ZLRRVDFCS4FNQZKTHCBN6AKRO4PP" ]
+SIGNING_KEY = "GD3V4AJMAKA3D2TPSFQZQX2LM43WYNKFCEUQITWMYO3PL4V4CBLTGZFG"
+TRANSFER_SERVER = "https://stellartomlorg.herokuapp.com/sep6"
+TRANSFER_SERVER_SEP0024 = "https://stellartomlorg.herokuapp.com/sep24"
+WEB_AUTH_ENDPOINT = "https://stellartomlorg.herokuapp.com/auth"
+KYC_SERVER = "https://stellartomlorg.herokuapp.com/kyc"
+DIRECT_PAYMENT_SERVER = "https://stellartomlorg.herokuapp.com/sep31"
+QUOTE_SERVER = "https://stellartomlorg.herokuapp.com/sep38"
+
+[[CURRENCIES]]
+code = "ZeptaCoin"
+issuer = "GD3V4AJMAKA3D2TPSFQZQX2LM43WYNKFCEUQITWMYO3PL4V4CBLTGZFG"
+status = "test"
+is_asset_anchored = false
+desc = "ZeptaCoin is an asset issued on testnet and is used as an anchored asset for this reference server for demonstration and testing purposes."
+
+[DOCUMENTATION]
+ORG_NAME = "Zeptagram"
+ORG_URL = "https://zeptagram.com"
+ORG_DESCRIPTION = "Zeptagram is a multi-blockchain based trading platform where intellectual property owners can tokenize their assets as NFTs and dNFTs."
+ORG_GITHUB = "Zeptagram"
