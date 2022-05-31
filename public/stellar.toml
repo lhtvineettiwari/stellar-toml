@@ -2,12 +2,12 @@ NETWORK_PASSPHRASE = "Test SDF Network ; September 2022"
 HORIZON_URL="https://horizon-testnet.stellar.org"
 ACCOUNTS = [ "GD3V4AJMAKA3D2TPSFQZQX2LM43WYNKFCEUQITWMYO3PL4V4CBLTGZFG", "GBVJMEXN4LT2MHVAVPNI4OKDXEY7ZLRRVDFCS4FNQZKTHCBN6AKRO4PP" ]
 SIGNING_KEY = "GD3V4AJMAKA3D2TPSFQZQX2LM43WYNKFCEUQITWMYO3PL4V4CBLTGZFG"
-TRANSFER_SERVER = "https://stellar-test-toml.netlify.app/sep6"
-TRANSFER_SERVER_SEP0024 = "https://stellar-test-toml.netlify.app/sep24"
-WEB_AUTH_ENDPOINT = "https://stellar-test-toml.netlify.app/auth"
-KYC_SERVER = "https://stellar-test-toml.netlify.app/kyc"
-DIRECT_PAYMENT_SERVER = "https://stellar-test-toml.netlify.app/sep31"
-QUOTE_SERVER = "https://stellar-test-toml.netlify.app/sep38"
+TRANSFER_SERVER = "https://stellar-toml.vercel.app/sep6"
+TRANSFER_SERVER_SEP0024 = "https://stellar-toml.vercel.app/sep24"
+WEB_AUTH_ENDPOINT = "https://stellar-toml.vercel.app/auth"
+KYC_SERVER = "https://stellar-toml.vercel.app/kyc"
+DIRECT_PAYMENT_SERVER = "https://stellar-toml.vercel.app/sep31"
+QUOTE_SERVER = "https://stellar-toml.vercel.app/sep38"
 
 [[CURRENCIES]]
 code = "ZeptaCoin"
