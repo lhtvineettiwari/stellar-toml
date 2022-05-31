@@ -4,18 +4,19 @@ const path = require('path');
 const cors = require("cors")
 app.use(cors())
 app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
+  res.header("Access-Control-Allow-Origin", "*"); 
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
 
+app.get("/", (req, res)=>{
+    res.send("Working")
+})
+
 app.get('/.well-known/stellar.toml', (req, res, next) => {
     const options = {
-      root: path.join(__dirname, '.well-known'),
+      root: path.join(__dirname, 'public'),
     }
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
-    res.header("content-type", "text/plain");
     res.sendFile('stellar.toml', options);
   })
 
