@@ -3,6 +3,7 @@ HORIZON_URL="https://horizon-testnet.stellar.org"
 ACCOUNTS = [ "GD3V4AJMAKA3D2TPSFQZQX2LM43WYNKFCEUQITWMYO3PL4V4CBLTGZFG", "GBVJMEXN4LT2MHVAVPNI4OKDXEY7ZLRRVDFCS4FNQZKTHCBN6AKRO4PP" ]
 SIGNING_KEY = "GD3V4AJMAKA3D2TPSFQZQX2LM43WYNKFCEUQITWMYO3PL4V4CBLTGZFG"
 TRANSFER_SERVER = "https://stellar-toml.vercel.app/sep6"
+FEDERATION_SERVER="https://stellarid.io/federation/"
 TRANSFER_SERVER_SEP0024 = "https://stellar-toml.vercel.app/sep24"
 WEB_AUTH_ENDPOINT = "https://stellar-toml.vercel.app/auth"
 KYC_SERVER = "https://stellar-toml.vercel.app/kyc"
